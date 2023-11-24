@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter No. 49 - 52</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1
+      style="
+        text-align: center;
+        color: #686a6c;
+        text-decoration: underline black;
+      "
+    >
+      Mustafa's Assignment
+    </h1>
+    <div class="signUpForm">
+      <fieldset>
+        <legend>SignUp Information</legend>
+        <input
+          type="text"
+          id="firstName"
+          placeholder="Enter Your First Name "
+        />
+        <br />
+        <input type="text" id="lastName" placeholder="Enter Your Last Name " />
+        <br />
+        <input type="email" id="emailUser" placeholder="Enter Your E-Mail " />
+        <br />
+        <input
+          type="password"
+          id="passWord"
+          placeholder="Enter Your Password "
+        />
+        <br />
+        <button onClick="saveAndDisplay()">Save Info</button>
+      </fieldset>
+    </div>
+    <p id="infoDisplay"></p>
+
+    <div class="card">
+      <img
+        src="https://img.freepik.com/free-vector/hand-drawn-phone-cartoon-illustration_52683-124698.jpg"
+        height="200px"
+      />
+      <p id="readMore">This is the New Mobile Phone ......</p>
+      <button onclick="displayInformation()">Read More !</button>
+    </div>
+
+    <div class="form">
+      <fieldset>
+        <legend>Student Information</legend>
+        <input type="text" placeholder="Enter your Name  " id="studentName" />
+        <br />
+        <input
+          type="text"
+          placeholder="Enter your Student ID  "
+          id="studentID"
+        />
+        <br />
+        <input
+          type="text"
+          placeholder="Enter your Department Name  "
+          id="studentDep"
+        />
+        <br />
+        <input type="text" placeholder="Enter your Term  " id="semesterTerm" />
+        <br />
+        <button onclick="insertTable()">Save Info</button>
+      </fieldset>
+    </div>
+
+    <div id="TableColumns">
+      <table>
+        <thead>
+          <th>Name</th>
+          <th>ID</th>
+          <th>Department</th>
+          <th>Term</th>
+        </thead>
+        <tbody id="tableInsertion">
+
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

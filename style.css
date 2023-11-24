@@ -1,0 +1,84 @@
+*{
+    font-family: monospace;
+    padding: 10px;
+}
+
+input{
+ border: none; 
+    border-bottom: 2px solid #686A6C;
+    margin: 10px;
+    padding: 15px;
+}
+
+fieldset{
+    border-radius: 7px;
+}
+.btn , button{
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #686A6C;
+    color:  black;
+}
+
+legend{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#infoDisplay{
+    margin: 10px;
+    border: 2px solid #686A6C;
+    border-radius: 5px;
+    display: none;
+}
+
+img{
+    width: fit-content;
+}
+
+.card{
+    border: 2px solid #686A6C;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#TableColumns{
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 7px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #686A6C;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      width: auto; 
+    }
+  
+    th, td {
+      padding: 8px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    th, td {
+      padding: 4px; 
+  }
+  }
